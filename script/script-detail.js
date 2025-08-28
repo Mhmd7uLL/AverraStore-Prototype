@@ -36,6 +36,15 @@ const urlParams = new URLSearchParams(window.location.search);
         });
     });
 
+    function pilihSatu(checkbox) {
+      const checkboxes = document.querySelectorAll('.checkb');
+      checkboxes.forEach((item) => {
+        if (item !== checkbox) {
+          item.checked = false;
+        }
+      });
+    }
+
     switch(topik) {
         case 'Genshin':;
             titleweb.innerText = 'Genshin Impact - PAGE';
@@ -102,4 +111,5 @@ const urlParams = new URLSearchParams(window.location.search);
             break;
         default:
             titlegame.innerText = 'Topik Tidak Dikenal';
+
 }
