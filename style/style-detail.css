@@ -266,6 +266,19 @@ button > p {
     margin: 10px 0 5px 0;
 }
 
+.checkbox {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 28px;
+}
+
+input[type="checkbox"] {
+    accent-color: #c71414;
+    width: 16px;
+    height: 16px;
+}
+
 .pilihan {
     display: flex;
     flex-direction: row;
@@ -275,20 +288,15 @@ button > p {
 }
 
 .choice {
-    padding: 15px;
-    border: 2px solid rgb(98, 98, 98);
+    padding: 15px 70px 15px 70px;
+    border: 1px solid #c71414;
     border-radius: 6px;
 }
 
 .choice:hover {
+    background-color: #c71414;
+    color: white;
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
-
-.checkbox {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    height: 28px;
-}
-
 
