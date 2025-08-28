@@ -4,6 +4,8 @@ body {
     background-color: #e7e7e7;
 }
 
+/*     NAVBAR     */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -55,7 +57,10 @@ body {
 }
 
 .nav-links > li > a:hover {
-    color: #c71414;
+    background-color: #c71414;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -80,6 +85,8 @@ body {
     padding-left: 20px;
     cursor: pointer;
 }
+
+/*     GAME CONTENT     */
 
 .judul {
     margin-bottom: 10px;
@@ -283,4 +290,5 @@ button > p {
     flex-direction: row;
     height: 28px;
 }
+
 
