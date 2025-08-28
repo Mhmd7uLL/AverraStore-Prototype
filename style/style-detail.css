@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e7e7e7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    position: fixed;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.firstname {
+    color: #c71414;
+    font-weight: 700;
+}
+
+.lastname {
+    color: rgb(9, 9, 9);
+    font-weight: 700;
+    padding-left: 4px;
+}
+
+.store-name-logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding: 20px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 120px;
+}
+
+.nav-links > li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.nav-links > li > a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-links > li > a:hover {
+    color: #c71414;
+    transition: all 0.2s ease-in-out;
+}
+
+.store-name-logo > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-right: 8px;
+}
+
+.basket-logo-and-search {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.basket-logo-and-search > img {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.judul {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #c71414;
+}
+
+.container-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.transaction {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.container-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.transaksi {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fFf;
+    width: 100vh;
+    height: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+}
+
+#gameicon {
+    width: 100vh;
+    height: 400px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+.transaksi1 {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+    width: 100vh;
+    margin: auto;
+}
+
+.form-header {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.form-header i {
+  background-color: #c71414;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+.divider {
+  height: 3px;
+  background-color: #ccc;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.form-row input, .form-row select {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #d3d3d3;
+  font-size: 14px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+}
+
+.form-note {
+  font-size: 12px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.gi-item {
+  display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 6px;
+}
+
+.aktif{
+    background-color: #c71414;
+    color: white;
+}
+
+.btn-item {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+}
+
+.btn-item.aktif {
+  background-color: #b30000;
+  color: white;
+}
+
+.btn-item:hover{
+    cursor : pointer;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.payment-type {
+    justify-content: start;
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #e7e7e7;
+}
+
+.payment-type.aktif {
+    background-color: #c71414;
+    color: white;
+}
+
+.payment-type:hover {
+    cursor: pointer;
+}
+
+button > h3, button > p {
+    margin: 0;
+    padding-left: 20px;
+    text-align: start;
+}
+
+button > h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: black;
+}
+
+button > p {
+    font-size: 14px;
+    margin: 10px 0 5px 0;
+}
+
+.pilihan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.choice {
+    padding: 15px;
+    border: 2px solid rgb(98, 98, 98);
+    border-radius: 6px;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 28px;
+}
+
